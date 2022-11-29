@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #acbac4;
+}
+.card{
+    width: 18em;
+}
+#cerrarSesion {
+    cursor: pointer;
+}
+.cartImg{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.modal{
+    height: 100vh;
+    width: 100wh;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.309);
+}
+.aparecer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalContenedor{
+    height:max-content;
+    width: 60%;
+    background-color: rgb(193, 228, 234);
+    border-radius: 5px;
+    box-shadow: 2px 1px 4px 1px ;
+    display: flex;
+    flex-direction: column;
+}
+.buttonCerrar{
+    background: none;
+    border: none;
+    margin: 5px 15px;
+    align-self: flex-end;
+}
+.buttonCerrar > h2 {
+    font-size: 3rem;
+}
+
+.spanMenos {
+    font-size: 2rem;
+    color: red;
+    font-weight: 900;
+    cursor: pointer;
+}
